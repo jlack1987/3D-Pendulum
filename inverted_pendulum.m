@@ -1,13 +1,17 @@
-addpath("build");
 
+nDof = 2;
 
-robotObj = struct();
+if nDof == 3
+    addpath("build");
+    
+       ic = [pi/2;pi/2;0;0;0;0];
+else
+   addpath("build_2dof");
+   
+   ic = [pi/2;pi/2;0.3;0.3];
+endif
 
-nDof = 3;
-
-%options =odeset("RelTol",1e-3, "AbsTol", 1e-3,"InitialStep",1e-4,"MaxStep",1e-2);
-
-ic = [pi/2;pi/2;0;0;0;0];
+options =odeset("RelTol",1e-3, "AbsTol", 1e-3,"InitialStep",1e-4,"MaxStep",1e-2);
 
 tEnd = 3;
 
@@ -15,7 +19,7 @@ tEnd = 3;
 
 clf;
 figure(1);
-leg = plot3(NaN,NaN,NaN,"r","linewidth",10);
+leg = plot3(NaN,NaN,NaN,"r","linewidth",5);
 hold on
 comBall = plot3(NaN,NaN,NaN,"o","markersize",20,"linewidth",20);
 axis([-1.1 1.1 -1.1 1.1 -1.1 1.1]);
