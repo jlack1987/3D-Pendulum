@@ -3,11 +3,11 @@ addpath("build");
 
 robotObj = struct();
 
-nDof = 2;
+nDof = 3;
 
-options =odeset("RelTol",1e-3, "AbsTol", 1e-3,"InitialStep",1e-4,"MaxStep",1e-2);
+%options =odeset("RelTol",1e-3, "AbsTol", 1e-3,"InitialStep",1e-4,"MaxStep",1e-2);
 
-ic = [pi/2;pi/2;0;0];
+ic = [pi/2;pi/2;0;0;0;0];
 
 tEnd = 3;
 
