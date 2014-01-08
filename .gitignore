@@ -2,3 +2,4 @@
 *.m~~
 *.py~
 *octave-core
+*.orig
