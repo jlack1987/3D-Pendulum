@@ -4,7 +4,7 @@ nDof = 2;
 if nDof == 3
     addpath("build");
     
-       ic = [pi/2;pi/2;0;0;0;0];
+   ic = [pi/2;pi/2;0;0;0;0];
 else
    addpath("build_2dof");
    
@@ -29,6 +29,7 @@ pFoot = [0;0;0];
 for i = 1:length(t)
    
     CoM= pCoM(sol(i,1:3));
+
     legLine = [pFoot,CoM'];
 
     set(comBall,'XData',CoM(1),'erasemode','normal');    	
