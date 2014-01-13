@@ -14,7 +14,7 @@ f = [qdot ; -inv(D_mat) * (C_mat*qdot + G_vec)];
 g = [zeros(size(B)) ; inv(D_mat) * B];
 
 u = G_vec;
-u = control(x,D_mat,C_mat,G_vec,ndof,0)
+u = control(x,D_mat,C_mat,G_vec,ndof,1);
 
 ret = f + g * u;
 

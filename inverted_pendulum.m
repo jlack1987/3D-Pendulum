@@ -1,4 +1,9 @@
 close all;
+clear cop;
+
+global cop;
+
+cop = [];
 
 nDof = 2;
 
@@ -20,7 +25,7 @@ tEnd = 3;
 
 clf;
 figure(1);
-leg = plot3(NaN,NaN,NaN,"r","linewidth",5);
+leg = plot3(NaN,NaN,NaN,"r","linewidth",2);
 hold on
 comBall = plot3(NaN,NaN,NaN,"o","markersize",20,"linewidth",20);
 hold on
