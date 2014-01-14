@@ -1,1 +1,16 @@
-{{(-10791*Cos[x[2]]*Sin[x[1]])/4}, {(-10791*Cos[x[1]]*Sin[x[2]])/4}}
+{0, 0, 1129.131, (981*(-0.0005*Cos[x[5]]*Sin[x[4]] + 
+    115*(Cos[x[4]]*(-(Cos[x[6]]*Cos[x[8]]*Sin[x[7]]) + Sin[x[6]]*Sin[x[8]]) - 
+      Sin[x[4]]*(Cos[x[5]]*(0.01 + Cos[x[7]]*Cos[x[8]]) - 
+        Sin[x[5]]*(Cos[x[8]]*Sin[x[6]]*Sin[x[7]] + Cos[x[6]]*Sin[x[8]])))))/
+  100, (981*(-0.0005*Cos[x[4]]*Sin[x[5]] + 115*Cos[x[4]]*
+     (-((0.01 + Cos[x[7]]*Cos[x[8]])*Sin[x[5]]) - 
+      Cos[x[5]]*(Cos[x[8]]*Sin[x[6]]*Sin[x[7]] + Cos[x[6]]*Sin[x[8]]))))/100, 
+ (22563*(Sin[x[4]]*(Cos[x[8]]*Sin[x[6]]*Sin[x[7]] + Cos[x[6]]*Sin[x[8]]) - 
+    Cos[x[4]]*Sin[x[5]]*(Cos[x[6]]*Cos[x[8]]*Sin[x[7]] - 
+      Sin[x[6]]*Sin[x[8]])))/20, 
+ (22563*(-(Cos[x[6]]*Cos[x[7]]*Cos[x[8]]*Sin[x[4]]) + 
+    Cos[x[4]]*(-(Cos[x[7]]*Cos[x[8]]*Sin[x[5]]*Sin[x[6]]) - 
+      Cos[x[5]]*Cos[x[8]]*Sin[x[7]])))/20, 
+ (22563*(Sin[x[4]]*(Cos[x[8]]*Sin[x[6]] + Cos[x[6]]*Sin[x[7]]*Sin[x[8]]) + 
+    Cos[x[4]]*(-(Cos[x[5]]*Cos[x[7]]*Sin[x[8]]) - 
+      Sin[x[5]]*(Cos[x[6]]*Cos[x[8]] - Sin[x[6]]*Sin[x[7]]*Sin[x[8]]))))/20}

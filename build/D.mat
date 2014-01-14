@@ -1,5 +1,671 @@
-{{(7706730*Cos[x[2]]^2)/27997 + (1588*Sin[x[2]]^2)/36227 + 
-   (1855*Sin[2*x[2]])/39748 + 550*Cos[x[2]]^2*x[3] + 275*Cos[x[2]]^2*x[3]^2, 
-  (9*Cos[x[2]])/63143 - (107*Sin[x[2]])/30095, 0}, 
- {(9*Cos[x[2]])/63143 - (107*Sin[x[2]])/30095, 
-  11382/38723 + 275*(1 + x[3])^2, 0}, {0, 0, 275}}
+{{115.1, 0, 0, 0, 
+  (1.1505 + 115*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+    Cos[Subscript[\[Phi], y][t]] - 115*Sin[Subscript[\[Phi], y][t]]*
+    (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+     Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+      Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[\[Phi], y][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t], 
+  115*Cos[Subscript[\[Phi], y][t]]*
+   (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t]), 
+  -115*Cos[Subscript[q, 2][t]]*(Sin[Subscript[q, 1][t]]*
+     Sin[Subscript[\[Phi], y][t]] - Cos[Subscript[q, 1][t]]*
+     Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])*
+   (1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], y][t]]*
+     Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 2][t]]*
+     (Cos[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]]))*(1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]]))}, 
+ {0, 115.1, 0, 115*Sin[Subscript[\[Phi], x][t]]*
+    (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+      Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]]) - 
+   (Cos[Subscript[\[Phi], x][t]]*
+     ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+       Cos[Subscript[\[Phi], y][t]] - 230*Sin[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]])))/2 + 
+   115*(-(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], x][t]]*Cos[Subscript[\[Phi], y][t]]) + 
+     Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], y][t]] - 
+       Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+     Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], x][t]] + 
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]]*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t], 
+  (Sin[Subscript[\[Phi], x][t]]*
+    ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+      Sin[Subscript[\[Phi], y][t]] + 230*Cos[Subscript[\[Phi], y][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]]) + 
+     230*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+        Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+        (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+         Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]))/2, 
+  115*(Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 2][t]] + Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], z][t]]))*(1 + Subscript[q, 3][t]), 
+  115*Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], y][t]]*
+     Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], x][t]] + 
+    Cos[Subscript[q, 1][t]]*(-(Cos[Subscript[\[Phi], x][t]]*
+        Cos[Subscript[\[Phi], z][t]]) + Sin[Subscript[\[Phi], x][t]]*
+       Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]]))*
+   (1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+       Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 2][t]] + 
+      Sin[Subscript[\[Phi], y][t]]*(Cos[Subscript[q, 2][t]]*
+         Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]])))*
+   (1 + Subscript[q, 3][t]), 
+  115*(Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) - 
+    Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+       Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] + 
+      Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+         Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])))}, 
+ {0, 0, 115.1, -1.1505*Cos[Subscript[\[Phi], y][t]]*
+    Sin[Subscript[\[Phi], x][t]] + 115*Cos[Subscript[\[Phi], z][t]]*
+    Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], x][t]]*
+    Sin[Subscript[\[Phi], y][t]] + 115*Cos[Subscript[\[Phi], x][t]]*
+    Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]] - 
+   115*Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+      Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] + 
+     Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+        Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])) + 
+   115*(Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]] + 
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) - 
+     Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] + 
+       Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+          Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])))*
+    Subscript[q, 3][t], 
+  -(Cos[Subscript[\[Phi], x][t]]*
+     ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+       Sin[Subscript[\[Phi], y][t]] + 230*Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]) + 
+      230*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+         (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+          Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+           Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]))/2, 
+  115*(Cos[Subscript[\[Phi], z][t]]*(Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], x][t]] - Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], y][t]]) + 
+    (Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], x][t]] + Cos[Subscript[\[Phi], x][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]])*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t]), 
+  -115*Cos[Subscript[q, 2][t]]*(Cos[Subscript[q, 1][t]]*
+     Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], x][t]] + 
+    Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], y][t]]*
+       Sin[Subscript[q, 1][t]] + Cos[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]]))*
+   (1 + Subscript[q, 3][t]), 
+  115*(Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Cos[Subscript[\[Phi], x][t]]*
+     (-(Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+        Sin[Subscript[q, 2][t]]) + Sin[Subscript[\[Phi], y][t]]*
+       (-(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]) + 
+        Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]])))*(1 + Subscript[q, 3][t]), 
+  115*(Sin[Subscript[\[Phi], x][t]]*
+     (-(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[q, 1][t]]) + Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], z][t]]) + Cos[Subscript[\[Phi], x][t]]*
+     (Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]])))}, 
+ {0, 115*Sin[Subscript[\[Phi], x][t]]*
+    (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+      Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]]) - 
+   (Cos[Subscript[\[Phi], x][t]]*
+     ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+       Cos[Subscript[\[Phi], y][t]] - 230*Sin[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]])))/2 + 
+   115*(-(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], x][t]]*Cos[Subscript[\[Phi], y][t]]) + 
+     Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], y][t]] - 
+       Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+     Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], x][t]] + 
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]]*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t], 
+  -1.1505*Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], x][t]] + 
+   115*Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]]*
+    Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]] + 
+   115*Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[q, 2][t]]*
+    Sin[Subscript[\[Phi], z][t]] - 115*Cos[Subscript[q, 2][t]]*
+    (Cos[Subscript[\[Phi], x][t]]*Cos[Subscript[\[Phi], z][t]]*
+      Sin[Subscript[q, 1][t]] + Sin[Subscript[\[Phi], x][t]]*
+      (Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]] - 
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]]*
+        Sin[Subscript[\[Phi], z][t]])) + 
+   115*(Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]] + 
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) - 
+     Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] + 
+       Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+          Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])))*
+    Subscript[q, 3][t], 2.6*^-6*Cos[Subscript[\[Phi], y][t]]^2*
+    Cos[Subscript[\[Phi], z][t]]^2 + 1.*^-7*Sin[Subscript[\[Phi], y][t]]^2 + 
+   2.6*^-6*Cos[Subscript[\[Phi], y][t]]^2*Sin[Subscript[\[Phi], z][t]]^2 + 
+   0.001*(Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] - 
+      1.*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+       Sin[Subscript[\[Phi], z][t]])^2 + 
+   0.0115*Cos[Subscript[\[Phi], y][t]]^2*
+    (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], z][t]])^2 + 
+   0.001*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]))^2 + 
+   0.001*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], y][t]]*
+       Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 2][t]]*
+       (Cos[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+        Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]))^2 + 
+   115*(-(Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]]) + 
+      Cos[Subscript[\[Phi], y][t]]*(0.01*Cos[Subscript[\[Phi], z][t]]*
+         Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+        (Cos[Subscript[q, 1][t]] + 0.01*Cos[Subscript[q, 2][t]])*
+         Sin[Subscript[\[Phi], z][t]]) + 
+      (-(Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]]) + 
+        Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+         Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t])^2 + 
+   115*(Cos[Subscript[q, 1][t]]*(0.01*Cos[Subscript[\[Phi], y][t]]*
+         Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], y][t]]) + Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]] - 
+        Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]]) + 
+      (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], y][t]]*
+         Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 2][t]]*
+         (Cos[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+          Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 1][t]]*
+           Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t])^2, 
+  115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t])*
+   ((0.01 + Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+     Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]]) + 
+    (Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]), 
+  (86.2510001 - 28.75*Cos[2*Subscript[q, 1][t]] - 
+     14.375*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+     28.75*Cos[2*Subscript[q, 2][t]] - 
+     14.375*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+    Sin[Subscript[\[Phi], y][t]] + 115*Cos[Subscript[\[Phi], y][t]]*
+    ((-0.01 - 1.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+      Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+     (-0.01*Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]] - 
+       0.5*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]^2*
+        Sin[Subscript[q, 1][t]] + Sin[2*Subscript[q, 1][t]]*
+        (-0.25 + 0.25*Sin[Subscript[q, 2][t]]^2))*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*((1.5 - 0.5*Cos[2*Subscript[q, 1][t]] - 
+       0.25*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+       0.5*Cos[2*Subscript[q, 2][t]] - 
+       0.25*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+      Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+      ((-0.01 - 2.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       (-0.01*Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]] - 
+         1.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]^2*
+          Sin[Subscript[q, 1][t]] - 0.5*Sin[2*Subscript[q, 1][t]] + 
+         Cos[Subscript[q, 1][t]]*Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[q, 2][t]]^2)*Sin[Subscript[\[Phi], z][t]]))*
+    Subscript[q, 3][t] + 115*(-0.5000000000000001*Cos[Subscript[q, 1][t]]^2*
+      Cos[Subscript[q, 2][t]]^2*Sin[Subscript[\[Phi], y][t]] + 
+     (0.875 - 0.125*Cos[2*Subscript[q, 1][t]] - 
+       0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+       0.125*Cos[2*Subscript[q, 2][t]] - 
+       0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+      Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[q, 1][t]]*
+      Cos[Subscript[\[Phi], y][t]]*(-1.*Cos[Subscript[q, 2][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] - 
+       0.5*Cos[Subscript[q, 2][t]]^2*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]] + Sin[Subscript[q, 1][t]]*
+        (-0.5 + 0.5*Sin[Subscript[q, 2][t]]^2)*Sin[Subscript[\[Phi], z][t]]))*
+    Subscript[q, 3][t]^2, 
+  0.5*(-230.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+     Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+    Cos[Subscript[\[Phi], y][t]]*
+     ((115.002 + 2.3000000000000003*Cos[Subscript[q, 1][t]]*
+         Cos[Subscript[q, 2][t]] + 115*Cos[2*Subscript[q, 2][t]])*
+       Cos[Subscript[\[Phi], z][t]] - 115.*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    115*(-4.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*
+       ((2. + 0.02*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]] + 
+          2.*Cos[2*Subscript[q, 2][t]])*Cos[Subscript[\[Phi], z][t]] - 
+        2.*Sin[Subscript[q, 1][t]]*Sin[2*Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t] + 
+    115*(-2.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*(2.0000000000000004*
+         Cos[Subscript[q, 2][t]]^2*Cos[Subscript[\[Phi], z][t]] - 
+        1.*Sin[Subscript[q, 1][t]]*Sin[2*Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]^2), 
+  115.001*Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] - 
+   1.*Cos[Subscript[\[Phi], y][t]]*
+    (1.1500000000000001*Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+      Sin[Subscript[q, 2][t]] + (115.001*Cos[Subscript[q, 1][t]] + 
+       1.1500000000000001*Cos[Subscript[q, 2][t]])*
+      Sin[Subscript[\[Phi], z][t]]) - 
+   115*(-2*Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+     Cos[Subscript[\[Phi], y][t]]*(0.01*Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+       (2*Cos[Subscript[q, 1][t]] + 0.01*Cos[Subscript[q, 2][t]])*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t] + 
+   115*(Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] - 
+     Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+      Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t]^2, 
+  1.1500000000000001*Cos[Subscript[\[Phi], y][t]]*
+   (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])}, 
+ {(1.1505 + 115*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+    Cos[Subscript[\[Phi], y][t]] - 115*Sin[Subscript[\[Phi], y][t]]*
+    (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+     Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+      Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[\[Phi], y][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t], 
+  (Sin[Subscript[\[Phi], x][t]]*
+    ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+      Sin[Subscript[\[Phi], y][t]] + 230*Cos[Subscript[\[Phi], y][t]]*
+      (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]]) + 
+     230*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+        Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+        (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+         Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]))/2, 
+  -(Cos[Subscript[\[Phi], x][t]]*
+     ((2.301 + 230*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+       Sin[Subscript[\[Phi], y][t]] + 230*Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]) + 
+      230*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+         (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+          Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+           Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]))/2, 
+  115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t])*
+   ((0.01 + Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+     Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]]) + 
+    (Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]), 
+  71.88750259999999 + 14.375*Cos[2*Subscript[q, 1][t]] + 
+   1.1500000000000001*Cos[Subscript[q, 1][t] - Subscript[q, 2][t]] + 
+   7.1875*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] + 
+   14.375*Cos[2*Subscript[q, 2][t]] + 1.1500000000000001*
+    Cos[Subscript[q, 1][t] + Subscript[q, 2][t]] + 
+   7.1875*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])] + 
+   7.1875*Cos[2*(Subscript[q, 1][t] - Subscript[\[Phi], z][t])] + 
+   3.59375*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] - 
+       Subscript[\[Phi], z][t])] - 
+   21.5625*Cos[2*(Subscript[q, 2][t] - Subscript[\[Phi], z][t])] + 
+   3.59375*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] - 
+       Subscript[\[Phi], z][t])] + 14.375*Cos[2*Subscript[\[Phi], z][t]] + 
+   7.1875*Cos[2*(Subscript[q, 1][t] + Subscript[\[Phi], z][t])] + 
+   3.59375*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] + 
+       Subscript[\[Phi], z][t])] - 
+   21.5625*Cos[2*(Subscript[q, 2][t] + Subscript[\[Phi], z][t])] + 
+   3.59375*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] + 
+       Subscript[\[Phi], z][t])] + 
+   14.375*Sin[Subscript[q, 1][t] + 2*Subscript[q, 2][t] - 
+      2*Subscript[\[Phi], z][t]] + 
+   14.375*Sin[Subscript[q, 1][t] - 2*Subscript[q, 2][t] + 
+      2*Subscript[\[Phi], z][t]] - 
+   14.375*Sin[Subscript[q, 1][t] - 2*(Subscript[q, 2][t] + 
+        Subscript[\[Phi], z][t])] - 
+   14.375*Sin[Subscript[q, 1][t] + 2*(Subscript[q, 2][t] + 
+        Subscript[\[Phi], z][t])] + 
+   115*(1.25 + 0.25*Cos[2*Subscript[q, 1][t]] + 
+     0.01*Cos[Subscript[q, 1][t] - Subscript[q, 2][t]] + 
+     0.125*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] + 
+     0.25*Cos[2*Subscript[q, 2][t]] + 
+     0.01*Cos[Subscript[q, 1][t] + Subscript[q, 2][t]] + 
+     0.125*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])] + 
+     0.125*Cos[2*(Subscript[q, 1][t] - Subscript[\[Phi], z][t])] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] - 
+         Subscript[\[Phi], z][t])] - 
+     0.375*Cos[2*(Subscript[q, 2][t] - Subscript[\[Phi], z][t])] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] - 
+         Subscript[\[Phi], z][t])] + 0.25*Cos[2*Subscript[\[Phi], z][t]] + 
+     0.125*Cos[2*(Subscript[q, 1][t] + Subscript[\[Phi], z][t])] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] + 
+         Subscript[\[Phi], z][t])] - 
+     0.375*Cos[2*(Subscript[q, 2][t] + Subscript[\[Phi], z][t])] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] + 
+         Subscript[\[Phi], z][t])] + 
+     0.25*Sin[Subscript[q, 1][t] + 2*Subscript[q, 2][t] - 
+        2*Subscript[\[Phi], z][t]] + 
+     0.25*Sin[Subscript[q, 1][t] - 2*Subscript[q, 2][t] + 
+        2*Subscript[\[Phi], z][t]] - 
+     0.25*Sin[Subscript[q, 1][t] - 2*(Subscript[q, 2][t] + 
+          Subscript[\[Phi], z][t])] - 
+     0.25*Sin[Subscript[q, 1][t] + 2*(Subscript[q, 2][t] + 
+          Subscript[\[Phi], z][t])])*Subscript[q, 3][t] + 
+   115*(0.625 + 0.125*Cos[2*Subscript[q, 1][t]] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] + 
+     0.125*Cos[2*Subscript[q, 2][t]] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[\[Phi], z][t])] + 
+     0.03125*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] - 
+         Subscript[\[Phi], z][t])] - 
+     0.1875*Cos[2*(Subscript[q, 2][t] - Subscript[\[Phi], z][t])] + 
+     0.03125*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] - 
+         Subscript[\[Phi], z][t])] + 0.125*Cos[2*Subscript[\[Phi], z][t]] + 
+     0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[\[Phi], z][t])] + 
+     0.03125*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t] + 
+         Subscript[\[Phi], z][t])] - 
+     0.1875*Cos[2*(Subscript[q, 2][t] + Subscript[\[Phi], z][t])] + 
+     0.03125*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t] + 
+         Subscript[\[Phi], z][t])] + 
+     0.125*Sin[Subscript[q, 1][t] + 2*Subscript[q, 2][t] - 
+        2*Subscript[\[Phi], z][t]] + 
+     0.125*Sin[Subscript[q, 1][t] - 2*Subscript[q, 2][t] + 
+        2*Subscript[\[Phi], z][t]] - 
+     0.125*Sin[Subscript[q, 1][t] - 2*(Subscript[q, 2][t] + 
+          Subscript[\[Phi], z][t])] - 
+     0.125*Sin[Subscript[q, 1][t] + 2*(Subscript[q, 2][t] + 
+          Subscript[\[Phi], z][t])])*Subscript[q, 3][t]^2, 
+  115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t])*
+   (0.01 + Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]] + 
+    Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*Subscript[q, 3][t]), 
+  (115*Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+     Sin[2*Subscript[q, 2][t]] + 
+    (115.002 + 2.3000000000000003*Cos[Subscript[q, 1][t]]*
+       Cos[Subscript[q, 2][t]] + 115*Cos[2*Subscript[q, 2][t]])*
+     Sin[Subscript[\[Phi], z][t]] + 
+    230*(Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]] + Cos[Subscript[q, 2][t]]*
+       (0.01*Cos[Subscript[q, 1][t]] + 2*Cos[Subscript[q, 2][t]])*
+       Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t] + 
+    115*(Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]] + 2*Cos[Subscript[q, 2][t]]^2*
+       Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t]^2)/2, 
+  115.001*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]] + 
+   1.1500000000000001*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]] - 
+     Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*(2*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]] + 
+     0.01*Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]] - 
+     0.01*Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t] + 
+   115*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]]*
+    Subscript[q, 3][t]^2, 1.1500000000000001*
+   (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+    Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+     Sin[Subscript[\[Phi], z][t]])}, 
+ {115*Cos[Subscript[\[Phi], y][t]]*
+   (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 2][t]] + Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], z][t]]))*(1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[\[Phi], z][t]]*(Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], x][t]] - Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], y][t]]) + 
+    (Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], x][t]] + Cos[Subscript[\[Phi], x][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]])*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t]), 
+  (86.2510001 - 28.75*Cos[2*Subscript[q, 1][t]] - 
+     14.375*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+     28.75*Cos[2*Subscript[q, 2][t]] - 
+     14.375*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+    Sin[Subscript[\[Phi], y][t]] + 115*Cos[Subscript[\[Phi], y][t]]*
+    ((-0.01 - 1.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+      Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+     (-0.01*Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]] - 
+       0.5*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]^2*
+        Sin[Subscript[q, 1][t]] + Sin[2*Subscript[q, 1][t]]*
+        (-0.25 + 0.25*Sin[Subscript[q, 2][t]]^2))*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*((1.5 - 0.5*Cos[2*Subscript[q, 1][t]] - 
+       0.25*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+       0.5*Cos[2*Subscript[q, 2][t]] - 
+       0.25*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+      Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+      ((-0.01 - 2.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]])*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+       (-0.01*Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]] - 
+         1.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]^2*
+          Sin[Subscript[q, 1][t]] - 0.5*Sin[2*Subscript[q, 1][t]] + 
+         Cos[Subscript[q, 1][t]]*Sin[Subscript[q, 1][t]]*
+          Sin[Subscript[q, 2][t]]^2)*Sin[Subscript[\[Phi], z][t]]))*
+    Subscript[q, 3][t] + 115*(-0.5000000000000001*Cos[Subscript[q, 1][t]]^2*
+      Cos[Subscript[q, 2][t]]^2*Sin[Subscript[\[Phi], y][t]] + 
+     (0.875 - 0.125*Cos[2*Subscript[q, 1][t]] - 
+       0.0625*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+       0.125*Cos[2*Subscript[q, 2][t]] - 
+       0.0625*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+      Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[q, 1][t]]*
+      Cos[Subscript[\[Phi], y][t]]*(-1.*Cos[Subscript[q, 2][t]]*
+        Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] - 
+       0.5*Cos[Subscript[q, 2][t]]^2*Sin[Subscript[q, 1][t]]*
+        Sin[Subscript[\[Phi], z][t]] + Sin[Subscript[q, 1][t]]*
+        (-0.5 + 0.5*Sin[Subscript[q, 2][t]]^2)*Sin[Subscript[\[Phi], z][t]]))*
+    Subscript[q, 3][t]^2, 
+  115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+     Sin[Subscript[q, 1][t]] - Sin[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], z][t]])*(1 + Subscript[q, 3][t])*
+   (0.01 + Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]] + 
+    Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*Subscript[q, 3][t]), 
+  86.2510001 - 28.75*Cos[2*Subscript[q, 1][t]] - 
+   14.375*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+   28.75*Cos[2*Subscript[q, 2][t]] - 
+   14.375*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])] + 
+   115*(1.5 - 0.5*Cos[2*Subscript[q, 1][t]] - 
+     0.25*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+     0.5*Cos[2*Subscript[q, 2][t]] - 
+     0.25*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+    Subscript[q, 3][t] + 115*(0.75 - 0.25*Cos[2*Subscript[q, 1][t]] - 
+     0.125*Cos[2*(Subscript[q, 1][t] - Subscript[q, 2][t])] - 
+     0.25*Cos[2*Subscript[q, 2][t]] - 
+     0.125*Cos[2*(Subscript[q, 1][t] + Subscript[q, 2][t])])*
+    Subscript[q, 3][t]^2, (-115*Cos[Subscript[q, 1][t]]*
+    Sin[2*Subscript[q, 2][t]]*(1 + Subscript[q, 3][t])^2)/2, 
+  Sin[Subscript[q, 1][t]]*(115.001 + 230.*Subscript[q, 3][t] + 
+    115*Subscript[q, 3][t]^2), 0}, 
+ {-115*Cos[Subscript[q, 2][t]]*(Sin[Subscript[q, 1][t]]*
+     Sin[Subscript[\[Phi], y][t]] - Cos[Subscript[q, 1][t]]*
+     Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]])*
+   (1 + Subscript[q, 3][t]), 115*Cos[Subscript[q, 2][t]]*
+   (Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 1][t]]*
+     Sin[Subscript[\[Phi], x][t]] + Cos[Subscript[q, 1][t]]*
+     (-(Cos[Subscript[\[Phi], x][t]]*Cos[Subscript[\[Phi], z][t]]) + 
+      Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]]*
+       Sin[Subscript[\[Phi], z][t]]))*(1 + Subscript[q, 3][t]), 
+  -115*Cos[Subscript[q, 2][t]]*(Cos[Subscript[q, 1][t]]*
+     Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[\[Phi], x][t]] + 
+    Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], y][t]]*
+       Sin[Subscript[q, 1][t]] + Cos[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]]))*
+   (1 + Subscript[q, 3][t]), 
+  0.5*(-230.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+     Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+    Cos[Subscript[\[Phi], y][t]]*
+     ((115.002 + 2.3000000000000003*Cos[Subscript[q, 1][t]]*
+         Cos[Subscript[q, 2][t]] + 115*Cos[2*Subscript[q, 2][t]])*
+       Cos[Subscript[\[Phi], z][t]] - 115.*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    115*(-4.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*
+       ((2. + 0.02*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]] + 
+          2.*Cos[2*Subscript[q, 2][t]])*Cos[Subscript[\[Phi], z][t]] - 
+        2.*Sin[Subscript[q, 1][t]]*Sin[2*Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t] + 
+    115*(-2.*Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*(2.0000000000000004*
+         Cos[Subscript[q, 2][t]]^2*Cos[Subscript[\[Phi], z][t]] - 
+        1.*Sin[Subscript[q, 1][t]]*Sin[2*Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t]^2), 
+  (115*Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+     Sin[2*Subscript[q, 2][t]] + 
+    (115.002 + 2.3000000000000003*Cos[Subscript[q, 1][t]]*
+       Cos[Subscript[q, 2][t]] + 115*Cos[2*Subscript[q, 2][t]])*
+     Sin[Subscript[\[Phi], z][t]] + 
+    230*(Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]] + Cos[Subscript[q, 2][t]]*
+       (0.01*Cos[Subscript[q, 1][t]] + 2*Cos[Subscript[q, 2][t]])*
+       Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t] + 
+    115*(Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[2*Subscript[q, 2][t]] + 2*Cos[Subscript[q, 2][t]]^2*
+       Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t]^2)/2, 
+  (-115*Cos[Subscript[q, 1][t]]*Sin[2*Subscript[q, 2][t]]*
+    (1 + Subscript[q, 3][t])^2)/2, 57.501 + 57.5*Cos[2*Subscript[q, 2][t]] + 
+   115*(1. + Cos[2*Subscript[q, 2][t]])*Subscript[q, 3][t] + 
+   115*(0.5 + 0.5*Cos[2*Subscript[q, 2][t]])*Subscript[q, 3][t]^2, 0., 0.}, 
+ {115*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], y][t]]*
+     Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 2][t]]*
+     (Cos[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]]))*(1 + Subscript[q, 3][t]), 
+  115*(Cos[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+       Cos[Subscript[\[Phi], y][t]]*Sin[Subscript[q, 2][t]] + 
+      Sin[Subscript[\[Phi], y][t]]*(Cos[Subscript[q, 2][t]]*
+         Cos[Subscript[\[Phi], z][t]] - Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]])))*
+   (1 + Subscript[q, 3][t]), 
+  115*(Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]) + 
+    Cos[Subscript[\[Phi], x][t]]*
+     (-(Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+        Sin[Subscript[q, 2][t]]) + Sin[Subscript[\[Phi], y][t]]*
+       (-(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]) + 
+        Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+         Sin[Subscript[\[Phi], z][t]])))*(1 + Subscript[q, 3][t]), 
+  115.001*Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] - 
+   1.*Cos[Subscript[\[Phi], y][t]]*
+    (1.1500000000000001*Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]]*
+      Sin[Subscript[q, 2][t]] + (115.001*Cos[Subscript[q, 1][t]] + 
+       1.1500000000000001*Cos[Subscript[q, 2][t]])*
+      Sin[Subscript[\[Phi], z][t]]) - 
+   115*(-2*Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] + 
+     Cos[Subscript[\[Phi], y][t]]*(0.01*Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]] + 
+       (2*Cos[Subscript[q, 1][t]] + 0.01*Cos[Subscript[q, 2][t]])*
+        Sin[Subscript[\[Phi], z][t]]))*Subscript[q, 3][t] + 
+   115*(Sin[Subscript[q, 1][t]]*Sin[Subscript[\[Phi], y][t]] - 
+     Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], y][t]]*
+      Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t]^2, 
+  115.001*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]] + 
+   1.1500000000000001*(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]] - 
+     Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]]) + 
+   115*(2*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]] + 
+     0.01*Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]] - 
+     0.01*Sin[Subscript[q, 1][t]]*Sin[Subscript[q, 2][t]]*
+      Sin[Subscript[\[Phi], z][t]])*Subscript[q, 3][t] + 
+   115*Cos[Subscript[q, 1][t]]*Cos[Subscript[\[Phi], z][t]]*
+    Subscript[q, 3][t]^2, Sin[Subscript[q, 1][t]]*
+   (115.001 + 230.*Subscript[q, 3][t] + 115*Subscript[q, 3][t]^2), 0., 
+  0.001 + 115*(1 + Subscript[q, 3][t])^2, 0.}, 
+ {115*(Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+     Sin[Subscript[\[Phi], y][t]] + Cos[Subscript[\[Phi], y][t]]*
+     (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+      Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+       Sin[Subscript[\[Phi], z][t]])), 
+  115*(Sin[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], z][t]]*
+       Sin[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], y][t]] + 
+      Cos[Subscript[\[Phi], x][t]]*Sin[Subscript[\[Phi], z][t]]) - 
+    Cos[Subscript[q, 2][t]]*(Cos[Subscript[\[Phi], x][t]]*
+       Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] + 
+      Sin[Subscript[\[Phi], x][t]]*(Cos[Subscript[q, 1][t]]*
+         Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], y][t]]*Sin[Subscript[\[Phi], z][t]]))), 
+  115*(Sin[Subscript[\[Phi], x][t]]*
+     (-(Cos[Subscript[q, 2][t]]*Cos[Subscript[\[Phi], z][t]]*
+        Sin[Subscript[q, 1][t]]) + Sin[Subscript[q, 2][t]]*
+       Sin[Subscript[\[Phi], z][t]]) + Cos[Subscript[\[Phi], x][t]]*
+     (Cos[Subscript[q, 1][t]]*Cos[Subscript[q, 2][t]]*
+       Cos[Subscript[\[Phi], y][t]] - Sin[Subscript[\[Phi], y][t]]*
+       (Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+        Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+         Sin[Subscript[\[Phi], z][t]]))), 1.1500000000000001*
+   Cos[Subscript[\[Phi], y][t]]*(Cos[Subscript[q, 2][t]]*
+     Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 1][t]] - 
+    Sin[Subscript[q, 2][t]]*Sin[Subscript[\[Phi], z][t]]), 
+  1.1500000000000001*(Cos[Subscript[\[Phi], z][t]]*Sin[Subscript[q, 2][t]] + 
+    Cos[Subscript[q, 2][t]]*Sin[Subscript[q, 1][t]]*
+     Sin[Subscript[\[Phi], z][t]]), 0, 0., 0., 115.}}
