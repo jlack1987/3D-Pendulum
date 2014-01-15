@@ -1,0 +1,19 @@
+{{Sin[x[5]]/100 + x[1], Sin[x[5]]/100 + Cos[x[7]]*Cos[x[8]]*Sin[x[5]] + 
+   Cos[x[5]]*Cos[x[8]]*Sin[x[6]]*Sin[x[7]] + Cos[x[5]]*Cos[x[6]]*Sin[x[8]] + 
+   x[1] + (Cos[x[7]]*Cos[x[8]]*Sin[x[5]] + 
+     Cos[x[5]]*(Cos[x[8]]*Sin[x[6]]*Sin[x[7]] + Cos[x[6]]*Sin[x[8]]))*x[9]}, 
+ {-(Cos[x[5]]*Sin[x[4]])/100 + x[2], -(Cos[x[5]]*Sin[x[4]])/100 - 
+   Cos[x[5]]*Cos[x[7]]*Cos[x[8]]*Sin[x[4]] - Cos[x[4]]*Cos[x[6]]*Cos[x[8]]*
+    Sin[x[7]] + Cos[x[8]]*Sin[x[4]]*Sin[x[5]]*Sin[x[6]]*Sin[x[7]] + 
+   Cos[x[6]]*Sin[x[4]]*Sin[x[5]]*Sin[x[8]] + Cos[x[4]]*Sin[x[6]]*Sin[x[8]] + 
+   x[2] + (-(Cos[x[8]]*(Cos[x[4]]*Cos[x[6]]*Sin[x[7]] + 
+        Sin[x[4]]*(Cos[x[5]]*Cos[x[7]] - Sin[x[5]]*Sin[x[6]]*Sin[x[7]]))) + 
+     (Cos[x[6]]*Sin[x[4]]*Sin[x[5]] + Cos[x[4]]*Sin[x[6]])*Sin[x[8]])*x[9]}, 
+ {(Cos[x[4]]*Cos[x[5]])/100 + x[3], (Cos[x[4]]*Cos[x[5]])/100 + 
+   Cos[x[4]]*Cos[x[5]]*Cos[x[7]]*Cos[x[8]] - Cos[x[6]]*Cos[x[8]]*Sin[x[4]]*
+    Sin[x[7]] - Cos[x[4]]*Cos[x[8]]*Sin[x[5]]*Sin[x[6]]*Sin[x[7]] - 
+   Cos[x[4]]*Cos[x[6]]*Sin[x[5]]*Sin[x[8]] + Sin[x[4]]*Sin[x[6]]*Sin[x[8]] + 
+   x[3] + (Cos[x[4]]*Cos[x[5]]*Cos[x[7]]*Cos[x[8]] - 
+     Cos[x[8]]*(Cos[x[6]]*Sin[x[4]] + Cos[x[4]]*Sin[x[5]]*Sin[x[6]])*
+      Sin[x[7]] + (-(Cos[x[4]]*Cos[x[6]]*Sin[x[5]]) + Sin[x[4]]*Sin[x[6]])*
+      Sin[x[8]])*x[9]}}

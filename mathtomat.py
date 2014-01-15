@@ -54,7 +54,7 @@ def multiSub(dict,text):
 baseDir = os.getcwd()
 
 # This assumes your Mathematica expression files are in a subdirectory called "build"
-buildDir = baseDir + '/build_2dof'
+buildDir = baseDir + '/build'
 
 # Get the filepaths to all files in the build directory with a .mat extension
 inputPaths = []

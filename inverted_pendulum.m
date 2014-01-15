@@ -1,50 +1,50 @@
-close all;
-clear cop;
 
-global cop;
+clear all;
 
-cop = [];
+nAct = 3;
+nBaseDof = 6;
 
-nDof = 2;
+robotObj = struct();
 
-if nDof == 3
+robotObj.nAct = nAct;
+robotObj.nBaseDof = nBaseDof;
+robotObj.ndof = nAct+nBaseDof;
+
+nDof = nAct + nBaseDof;
+
+if nDof == 9
     addpath("build");
     
-   ic = [pi/2;pi/2;0;0;0;0];
+%   ic = [0;0;0;0;0;0;0.1;0.1;0;0;0;0;0;0;0;0;0;0];
+   ic = [0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0];
 else
    addpath("build_2dof");
    
-   ic = [0.1;-0.1;0;0];
+   ic = [0;0;0;0;0;0;0.3;-0.3;0;0;0;0;0;0;0;0];
 endif
 
-options =odeset("RelTol",1e-3, "AbsTol", 1e-3,"InitialStep",1e-4,"MaxStep",1e-2);
+options = odeset("RelTol",1e-2, "AbsTol", 1e-2,"InitialStep",1e-2,"MaxStep",1e-1);
 
 tEnd = 3;
 
-[t,sol] = ode45(@dynamics,[0 tEnd], ic,options,[nDof]);
+[t,sol] = ode45(@dynamics,[0 tEnd], ic,options,[robotObj]);
 
-clf;
-figure(1);
+
+figure(1);clf;
 leg = plot3(NaN,NaN,NaN,"r","linewidth",2);
 hold on
 comBall = plot3(NaN,NaN,NaN,"o","markersize",20,"linewidth",20);
 hold on
 footRect = plot3(NaN,NaN,NaN,"linewidth",5);
-axis([-1.1 1.1 -1.1 1.1 -1.1 1.1]);
+axis([-1.1 1.1 -1.1 1.1 -1.1 3]);
 
 pFoot = [0;0;0];
 
-ankleToeLen = 0.1;
-ankleHeelLen = 0.05;
-footWidth = 0.05;
-
 for i = 1:length(t)
    
-    CoM= pCoM(sol(i,1:3));
-
-    legLine = [pFoot,CoM'];
-    foot = [pFoot + [ankleToeLen; footWidth/2; 0],pFoot + [ankleToeLen; -footWidth/2; 0],...
-                  pFoot + [-ankleHeelLen; -footWidth/2; 0], pFoot + [-ankleHeelLen; footWidth/2; 0],pFoot + [ankleToeLen; footWidth/2; 0]];
+    legLine =jpos(sol(i,1:nDof));
+    foot = footpts(sol(i,1:nDof));
+    CoM = pCoM(sol(i,1:nDof));
 
     set(comBall,'XData',CoM(1),'erasemode','normal');    	
     set(comBall,'YData',CoM(2),'erasemode','normal');
